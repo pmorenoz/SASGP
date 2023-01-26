@@ -1,7 +1,14 @@
-# SASGP
-Stochastic Active Sets for Gaussian Process Decoders
+# SASGP: Stochastic Active Sets for Gaussian Processes
+In this repository, you can find all the files for running the models and experiments described in our paper [Revisiting Active Sets for Gaussian Process Decoders](https://openreview.net/pdf?id=rAVqc7KSGDa). 
 
-Code to be released soon before the NeurIPS-2022 Conference in New Orleans, USA.
+## 🥬 Basic use
+
+## 🫑 Basic use
+
+The main file for training the SAS-GP and learn the probabilistic representation is `train.py`. In particular, you can make several combinations among the following choices. 
+
+
+For extra arguments and options, check `/utils/command_line_parser.py`.
 
 ## 🥝 Citation
 
