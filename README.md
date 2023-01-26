@@ -5,9 +5,11 @@ In this repository, you can find all the files for running the models and experi
 
 The main file for training the SAS-GP and learning the probabilistic representation is `train.py`. In particular, you can make several combinations among the following choices. 
 
-`parser.add_argument('--dataset', '-data', default='mnist', choices=['mnist', 'fmnist', 'cifar'], type=str, help='choose dataset')`
-`parser.add_argument('--model', '-model', default='sas', choices=['sas', 'baseline'], type=str, help='choose model')`
-`parser.add_argument('--inference', '-inf', default='gplvm', choices=['gplvm', 'bayesian'], type=str, help='model to run')`
+> data \ `parser.add_argument('--dataset', '-data', default='mnist', choices=['mnist', 'fmnist', 'cifar'], type=str, help='choose dataset')`
+
+> model \ `parser.add_argument('--model', '-model', default='sas', choices=['sas', 'baseline'], type=str, help='choose model')`
+
+> inference \ `parser.add_argument('--inference', '-inf', default='gplvm', choices=['gplvm', 'bayesian'], type=str, help='model to run')`
 
 For extra arguments and options, check `/utils/command_line_parser.py`.
 
